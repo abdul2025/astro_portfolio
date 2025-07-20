@@ -1,9 +1,4 @@
-# Astro Starter Kit: Portfolio
-
-```sh
-npm create astro@latest -- --template portfolio
-```
-
+# Abdulwahab: Portfolio
 
 
 ![portfolio](./public/assets/Screenshot.png)
