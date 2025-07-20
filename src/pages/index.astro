@@ -30,22 +30,22 @@ const projects = (await getCollection('work'))
 		<div class="wrapper stack gap-8 lg:gap-20">
 			<header class="hero">
 				<Hero
-					title="Hello, my name is Jeanine White"
-					tagline="I am a Creative Developer who is currently based in Portland, Oregon."
+					title="Hello, my name is Abdulwahab Alshehri"
+					tagline="I am a Innovative Software Engineer who is currently based in Jeddah, KSA."
 					align="start"
 				>
 					<div class="roles">
-						<Pill><Icon icon="code" size="1.33em" /> Developer</Pill>
-						<Pill><Icon icon="microphone-stage" size="1.33em" /> Speaker</Pill>
-						<Pill><Icon icon="pencil-line" size="1.33em" /> Writer</Pill>
+						<Pill><Icon icon="code" size="1.33em" /> Software Engineer</Pill>
+						<Pill><Icon icon="solution-architect" size="1.33em" /> Solution Architect</Pill>
+						<Pill><Icon icon="integration-specialist" size="1.33em" /> Integration Specialist</Pill>
 					</div>
 				</Hero>
 
 				<img
-					alt="Jeanine White smiling in a red plaid shirt and tortoise shell glasses"
+					alt="Abdulwahab Alshehri smiling in a red plaid shirt and tortoise shell glasses"
 					width="480"
 					height="620"
-					src="/assets/portrait.jpg"
+					src="/assets/personal.jpg"
 				/>
 			</header>
 
@@ -55,8 +55,8 @@ const projects = (await getCollection('work'))
 		<main class="wrapper stack gap-20 lg:gap-48">
 			<section class="section with-background with-cta">
 				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Selected Work</h3>
-					<p>Take a look below at some of my featured work for clients from the past few years.</p>
+					<h3>Selected Projects</h3>
+					<p>Take a look below at some of my featured Projects for clients from the past few years.</p>
 				</header>
 
 				<div class="gallery">
@@ -83,7 +83,7 @@ const projects = (await getCollection('work'))
 				<header class="section-header stack gap-2 lg:gap-4">
 					<h3>Mentions</h3>
 					<p>
-						I have been fortunate enough to receive praise for my work in several publications. Take
+						I have been fortunate enough to receive praise for my Projects in several publications. Take
 						a look below to learn more.
 					</p>
 				</header>
@@ -91,7 +91,13 @@ const projects = (await getCollection('work'))
 				<div class="gallery">
 					<Grid variant="small">
 						{
-							['Medium', 'BuzzFeed', 'The Next Web', 'awwwards.', 'TechCrunch'].map((brand) => (
+							[
+								'Flyadeal',
+								'Puritec',
+								'Munjiz',
+								'AICM',
+								'F3 ALFURSAN Integration'
+							].map((brand) => (
 								<li class="mention-card">
 									<p>{brand}</p>
 								</li>
