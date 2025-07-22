@@ -1,8 +1,14 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 
-// https://astro.build/config
-export default defineConfig({
-    site: 'https://abdul2025.github.io/astro_portfolio',
-    base: '/astro_portfolio/'
-  });
+export default defineConfig(({ command, mode }) => {
+  const isProd = mode === 'production';
+
+  return {
+    site: isProd
+      ? 'https://abdul2025.github.io/astro_portfolio'
+      : 'http://localhost:4321',
+
+    base: isProd ? '/astro_portfolio/' : '/',
+  };
+});
