@@ -6,7 +6,7 @@ export default defineConfig(({ command, mode }) => {
 
   return {
     site: isProd
-      ? 'https://abdul2025.github.io/astro_portfolio'
+      ? 'https://abdul2025.github.io'
       : 'http://localhost:4321',
 
     base: isProd ? '/astro_portfolio/' : '/',
